@@ -1,0 +1,34 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Databases
+*.db
+
+# HuggingFace / ML caches
+.cache/
+**/checkpoint-*
+**/complaint_classifier/
+*.safetensors
+*.pt
+*.bin
+
+# Training data (keep only inference assets)
+**/training_data.csv
+**/training_data_sanitized.csv
+**/priority_training.csv
+

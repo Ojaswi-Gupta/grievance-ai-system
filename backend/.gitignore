@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+.env
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Databases
+*.db
+
+# Caches
+.cache/
+**/.cache/
+
+# ML artifacts
+app/models/checkpoint-*
+app/models/complaint_classifier/
+app/models/*.pkl
