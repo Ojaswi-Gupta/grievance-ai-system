@@ -48,3 +48,6 @@ lightgbm
 
 # ---- Language Detection ----
 langdetect
+
+pytest
+httpx
